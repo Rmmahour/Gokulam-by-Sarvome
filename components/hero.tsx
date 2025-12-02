@@ -16,29 +16,43 @@ export function Hero() {
           />
           </div> */}
         {/* <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-gradient-to-t from-black/90 via-black/90 to-black/30" /> */}
-        <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-black/70" />
+        <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-black/50" />
         <div className="left-0 right-0 py-10 text-white w-full">
-          <div className="max-w-[1400px] mx-auto py-5 px-3 flex align-center justify-center h-[100%]">
+          <div className="max-w-[1400px] lg:w-[1400px] mx-auto py-5 px-3 flex justify-center h-[100%]">
             {/* <div className="grid grid-cols-1 lg:grid-cols-[7fr_5fr] gap-8 lg:gap-2 justify-center"> */}
-            <div className="flex justify-center text-center lg:gap-2">
-              <div className="px-5 max-w-[1200px] flex justify-center align-center flex-col gap-1">
-                <h1 className="text-4xl md:text-4xl lg:text-4xl font-extrabold leading-tight m-0 mb-2 text-white uppercase tracking-wide">
-                  2 & 3 BHK Luxury Independent Floor
-                </h1>
-                <h2 className="text-2xl md:text-4xl lg:text-4xl font-weight-[400] text-white uppercase tracking-wider">
-                  Sector 55, Faridabad
-                </h2>
-                <ul className="flex flex-col gap-2 mt-4 text-sm md:text-md lg:text-lg font-weight-medium text-white list-disc list-inside text-left align-center w-max-content mx-auto">
-                  <li>SECURED GATED COMMUNITY</li>
-                  <li>BASEMENT/ROOF RIGHTS<sup>*</sup></li>
-                  <li>SHOPPING COMPLEX WITHIN SOCIETY</li>
-                  <li>READY TO MOVE</li>
-                </ul>
-                <p className="text-xl md:text-2xl lg:text-3xl font-weight-bold text-white mt-2">₹ 78 Lacs Onwards</p>
-                <a href="#lead-form" className="w-max mx-auto mt-4 px-8 py-3.5 rounded-md bg-[#922e30] text-white text-lg font-bold hover:bg-white hover:text-[#922e30] transition-colors shadow-lg">
-                  Enquire Now
-                </a>
+            <div className="flex justify-center text-center lg:gap-2 w-full">
+              <div className="flex flex-col align-between md:flex-row gap-8 w-full">
+                <div className="px-5 flex justify-center flex-col gap-8 w-full">
+                  <div className="flex justify-between w-full">
+                    <div className="bg-[#922e30] text-white rounded-2xl p-8 w-[40%]">
+                      <h1 className="text-lg md:text-3xl font-extrabold leading-tight m-0 mb-2 text-white uppercase tracking-wide">
+                        2 & 3 BHK Luxury Independent Floor
+                      </h1>
+                      <h2 className="text-lg lg:text-2xl font-[400] text-white uppercase tracking-wider">
+                        Sector 55, Faridabad
+                      </h2>
+                    </div>
+
+                    <div className="bg-[#922e30] text-white rounded-2xl p-4 ps-6">
+                      <ul className="flex flex-col gap-1 mt-4 text-sm md:text-md lg:text-lg font-weight-medium text-white list-disc list-inside text-left">
+                        <li>SECURED GATED COMMUNITY</li>
+                        <li>BASEMENT/ROOF RIGHTS<sup>*</sup></li>
+                        <li>SHOPPING COMPLEX WITHIN SOCIETY</li>
+                        <li>READY TO MOVE</li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+                  <div className="flex flex-col gap-3">
+                    <p className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white mt-2">₹ 78 Lacs Onwards</p>
+                  <a href="#lead-form" className="w-max mx-auto mt-4 px-8 py-3.5 rounded-md bg-[#922e30] text-white text-lg font-bold hover:bg-white hover:text-[#922e30] transition-colors shadow-lg">
+                    Enquire Now
+                  </a>
+                  </div>
+                </div>
               </div>
+
 
               {/* <div className="w-[75%] md:w-[100%] mx-auto">
                 <div className="bg-gradient-to-b from-white via-white to-[#f7f2f2] rounded-[20px] p-6 border border-[#e5e7eb] shadow-[0_12px_30px_rgba(146,46,48,.12)]">
