@@ -5,58 +5,59 @@ import React from "react"
 export function Hero() {
   return (
 
-    <section className="relative overflow-hidden bg-cover"  style={{backgroundImage:`url('/3bhk-builder-floor-faridabad/hero.png')`}}>
-      <div className="relative rounded-none overflow-hidden z-10">
+    // <section className="relative overflow-hidden bg-cover"  style={{backgroundImage:`url('/3bhk-builder-floor-faridabad-2/hero.png')`}}>
+    <section className="relative overflow-hidden bg-cover" style={{ backgroundImage: `url('/3bhk-builder-floor-faridabad-2/Ele-55.jpg')` }}>
+      <div className="relative rounded-none overflow-hidden z-10 min-h-[70vh] flex align-center justify-center">
         {/* <div className="banner-div">
           <img
-            src="/3bhk-builder-floor-faridabad/hero.png"
+            src="/3bhk-builder-floor-faridabad-2/hero.png"
             alt="Gokulam Layout Plan"
             className="w-full h-[600px] max-w-full object-cover block"
           />
           </div> */}
-        <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-gradient-to-b from-black/20 via-black/30 to-black/60" />
-        <div className=" left-0 right-0 py-10 text-white w-full">
-          <div className="max-w-[1400px] mx-auto py-5">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-center">
-              <div className="mx-auto px-5 max-w-[1200px] flex justify-center flex-col gap-2">
+        {/* <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-gradient-to-t from-black/90 via-black/90 to-black/30" /> */}
+        <div className="absolute -z-1 left-0 right-0 bottom-0 top-0 bg-black/70" />
+        <div className="left-0 right-0 py-10 text-white w-full">
+          <div className="max-w-[1400px] mx-auto py-5 px-3 flex align-center justify-center h-[100%]">
+            {/* <div className="grid grid-cols-1 lg:grid-cols-[7fr_5fr] gap-8 lg:gap-2 justify-center"> */}
+            <div className="flex justify-center text-center lg:gap-2">
+              <div className="px-5 max-w-[1200px] flex justify-center align-center flex-col gap-1">
                 <h1 className="text-4xl md:text-4xl lg:text-4xl font-extrabold leading-tight m-0 mb-2 text-white uppercase tracking-wide">
                   2 & 3 BHK Luxury Independent Floor
                 </h1>
-                <h2 className="text-2xl md:text-4xl lg:text-4xl font-weight-bold text-white uppercase tracking-wider">
+                <h2 className="text-2xl md:text-4xl lg:text-4xl font-weight-[400] text-white uppercase tracking-wider">
                   Sector 55, Faridabad
                 </h2>
                 <ul className="grid grid-cols-1 gap-2 mt-4 text-sm md:text-md lg:text-lg font-weight-medium text-white list-disc list-inside">
                   <li>SECURED GATED COMMUNITY</li>
-                  <li>BASEMENT/ROOF RIGHTS*</li>
+                  <li>BASEMENT/ROOF RIGHTS<sup>*</sup></li>
                   <li>SHOPPING COMPLEX WITHIN SOCIETY</li>
                   <li>READY TO MOVE</li>
                 </ul>
-                <p className="text-xl md:text-2xl lg:text-3xl font-weight-bold text-white mt-2">₹ 72 Lacs Onwards</p>
-                <a href="#lead-form" className="w-max mt-4 px-8 py-3.5 rounded-md bg-white text-[#922e30] text-lg font-bold hover:bg-gray-100 transition-colors shadow-lg">
+                <p className="text-xl md:text-2xl lg:text-3xl font-weight-bold text-white mt-2">₹ 78 Lacs Onwards</p>
+                <a href="#lead-form" className="w-max mx-auto mt-4 px-8 py-3.5 rounded-md bg-[#922e30] text-white text-lg font-bold hover:bg-white hover:text-[#922e30] transition-colors shadow-lg">
                   Enquire Now
                 </a>
               </div>
 
-              <div>
+              {/* <div className="w-[75%] md:w-[100%] mx-auto">
                 <div className="bg-gradient-to-b from-white via-white to-[#f7f2f2] rounded-[20px] p-6 border border-[#e5e7eb] shadow-[0_12px_30px_rgba(146,46,48,.12)]">
-                  <h2 className="text-[28px] m-0 mt-0 mb-4 text-black">Ready to Experience Gokulam?</h2>
-                  {/* <p className="text-[#64748b] text-base mt-0 mb-4">
-               
-
-
-              </p> */}
+                  <h2 className="text-sm m-0 mt-0 mb-4 text-black">Ready to Experience Gokulam?</h2>
                   <div id="lead-form">
                     <div
                       className="hs-form-frame"
                       data-region="na2"
                       data-form-id="0ee74008-58e3-441d-8eb2-629b6831e887"
                       data-portal-id="244196242"
-                    ></div>
+                    >
+                    </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
+
+
           </div>
         </div>
       </div>

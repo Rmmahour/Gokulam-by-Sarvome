@@ -35,7 +35,7 @@ export function Gallery() {
   {!videoLoaded && (
     <>
       <img
-        src="/3bhk-builder-floor-faridabad/thumbnail.jpg"
+        src="/3bhk-builder-floor-faridabad-2/thumbnail.jpg"
         alt="Video Thumbnail"
         className="w-full h-full object-cover"
       />

@@ -88,7 +88,7 @@ export function Amenities() {
     { distance: "1 min", name: " HSVP Fully Developed Sector-55" },
     { distance: "5 minutes", name: "Ballabgarh Metro Station" },
     { distance: "2 minutes.", name: "Delhi Mathura Road" },
-    { distance: "1 min", name: "Govt. Hospital" },
+    { distance: "10 min", name: "Govt. Hospital" },
     { distance: "1 min ", name: "Govt. Model School" },
     { distance: "2 min", name: "HSVP Market" },
    
@@ -109,7 +109,7 @@ export function Amenities() {
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           {/* Map Section */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.4532901848715!2d77.29449597617707!3d28.345142197072125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdbabf2c14fb7%3A0x37144daf877d0287!2sGokulam%20by%20Sarvome!5e0!3m2!1sen!2sin!4v1761129674298!5m2!1sen!2sin" width="600" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.4532901848715!2d77.29449597617707!3d28.345142197072125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdbabf2c14fb7%3A0x37144daf877d0287!2sGokulam%20by%20Sarvome!5e0!3m2!1sen!2sin!4v1761129674298!5m2!1sen!2sin" width="100%" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           {/* Location Cards Grid */}

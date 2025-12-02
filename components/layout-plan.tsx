@@ -9,7 +9,7 @@ export function LayoutPlan() {
           </span> */}
         </div>
         <img
-          src="/3bhk-builder-floor-faridabad/Plan.jpg"
+          src="/3bhk-builder-floor-faridabad-2/Plan.jpg"
           alt="Gokulam Layout Plan"
           className="rounded-2xl border border-[#e5e7eb] w-full"
         />

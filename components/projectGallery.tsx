@@ -3,10 +3,10 @@ import React from "react"
 import Image from "next/image";
 
 const designImages = [
-    "/3bhk-builder-floor-faridabad/image.png",
-    "/3bhk-builder-floor-faridabad/image.png",
-    "/3bhk-builder-floor-faridabad/image.png",
-    "/3bhk-builder-floor-faridabad/image.png",
+    "/3bhk-builder-floor-faridabad-2/image.png",
+    "/3bhk-builder-floor-faridabad-2/image.png",
+    "/3bhk-builder-floor-faridabad-2/image.png",
+    "/3bhk-builder-floor-faridabad-2/image.png",
 ];
 
 
