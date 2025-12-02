@@ -28,7 +28,7 @@ export function Hero() {
                 <h2 className="text-2xl md:text-4xl lg:text-4xl font-weight-[400] text-white uppercase tracking-wider">
                   Sector 55, Faridabad
                 </h2>
-                <ul className="grid grid-cols-1 gap-2 mt-4 text-sm md:text-md lg:text-lg font-weight-medium text-white list-disc list-inside">
+                <ul className="flex flex-col gap-2 mt-4 text-sm md:text-md lg:text-lg font-weight-medium text-white list-disc list-inside text-left align-center w-max-content mx-auto">
                   <li>SECURED GATED COMMUNITY</li>
                   <li>BASEMENT/ROOF RIGHTS<sup>*</sup></li>
                   <li>SHOPPING COMPLEX WITHIN SOCIETY</li>
