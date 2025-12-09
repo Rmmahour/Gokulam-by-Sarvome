@@ -14,6 +14,15 @@ import { StickyCTA } from "@/components/sticky-cta"
 import ProjectGallery from "@/components/projectGallery"
 
 export default function Home() {
+
+  const slides = [
+    <img src="/images/slide1.jpg" className="w-full h-[400px] object-cover" />,
+    <img src="/images/slide2.jpg" className="w-full h-[400px] object-cover" />,
+    <div className="flex items-center justify-center bg-blue-600 h-[400px] text-white text-4xl font-bold">
+      Custom Content Slide
+    </div>,
+  ];
+
   const [showCookies, setShowCookies] = useState(false)
 
   useEffect(() => {
@@ -54,7 +63,7 @@ export default function Home() {
 
       {/* COOKIES CONSENT BAR */}
       {showCookies && (
-        <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#922e30] text-white">
+        <div className="fixed bottom-0 left-0 right-0 z-9999 bg-[#922e30] text-white">
           <div className="w-full md:max-w-6xl mx-auto px-6 sm:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
             {/* Left Section */}
             <div className="flex items-center gap-3 flex-1 min-w-0">

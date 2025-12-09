@@ -1,6 +1,6 @@
 export function StickyCTA() {
   return (
-    <div className="fixed bottom-3 ">
+    <div className="fixed bottom-3 z-99">
       {/* <a
         href="#lead-form"
         className="px-4 py-2.5 rounded-full bg-[#922e30] text-white font-bold hover:bg-[#7d2729] transition-colors"

@@ -9,12 +9,12 @@ export default function ThankYouPage() {
         <div className="container mx-auto px-4 md:px-6 max-w-[1200px]">
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
-                         <img
-  src="/3bhk-builder-floor-faridabad-2/gokulam.png"
-  alt="Gokulam Layout Plan"
-  className="rounded-2xl border w-full"
-  style={{ width: '25%', borderColor: 'transparent' }}
-/>
+              <img
+                src="/3bhk-builder-floor-faridabad-2/gokulam.png"
+                alt="Gokulam Layout Plan"
+                className="rounded-2xl border md:w-40 w-25"
+                style={{ borderColor: 'transparent' }}
+              />
             </Link>
             <Link
               href="/"
@@ -66,7 +66,7 @@ export default function ThankYouPage() {
               >
                 Back to Home
               </Link>
-             
+
             </div>
 
             {/* Contact Info */}
@@ -78,14 +78,14 @@ export default function ThankYouPage() {
             </p>
           </div>
 
-        
+
         </div>
       </main>
 
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 md:py-8 mt-auto">
         <div className="container mx-auto px-4 md:px-6 max-w-[1200px]">
-         
+
           <div className="border-t border-primary-foreground/20 pt-6 text-center text-sm text-primary-foreground/80">
             <p>&copy; 2025 Gokulam by Sarvome. All rights reserved.</p>
           </div>

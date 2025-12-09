@@ -4,6 +4,7 @@ import type React from "react"
 
 import { useState } from "react"
 import { useEffect } from 'react';
+import { FormComponent } from "./Form";
 
 export function FinalCTA() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -308,90 +309,7 @@ export function FinalCTA() {
           <div>
             <div className="bg-gradient-to-b from-white via-white to-[#f7f2f2] rounded-[20px] p-6 border border-[#e5e7eb] shadow-[0_12px_30px_rgba(146,46,48,.12)]">
               <h2 className="text-[28px] m-0 mt-0 mb-2">Ready to Experience Gokulam?</h2>
-              {/* <p className="text-[#64748b] text-base mt-0 mb-4">
-               
-
-
-              </p> */}
-              <div id="lead-form">
-                <div
-                  className="hs-form-frame"
-                  data-region="na2"
-                  data-form-id="0ee74008-58e3-441d-8eb2-629b6831e887"
-                  data-portal-id="244196242"
-                ></div>
-                {/* <iframe
-  title="Ready to Experience Gokulam?"
-  frameBorder="0"
-  style={{ height: "500px", width: "99%", border: "none" }}
-  src="https://forms.zohopublic.in/sarvome1/form/SignUp/formperma/VyYOqZMTY-J6guqF46pDT-L7-AOKa5uazh3k1PQ8v0I"
-></iframe> */}
-
-              </div>
-              {/* <form id="lead-form" className="grid gap-3" onSubmit={handleSubmit}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div>
-                    <label className="text-[13px] text-[#334155] font-semibold block mb-1">Full Name</label>
-                    <input
-                      required
-                      name="name"
-                      placeholder="Your name"
-                      className="w-full px-3.5 py-3 rounded-xl border border-[#e2e8f0] bg-white text-sm outline-none focus:shadow-[0_0_0_3px_rgba(146,46,48,0.2)] focus:border-[#f1a3a5]"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-[13px] text-[#334155] font-semibold block mb-1">Phone</label>
-                    <input
-                      required
-                      name="phone"
-                      placeholder="10-digit mobile"
-                      pattern="[0-9]{10}"
-                      className="w-full px-3.5 py-3 rounded-xl border border-[#e2e8f0] bg-white text-sm outline-none focus:shadow-[0_0_0_3px_rgba(146,46,48,0.2)] focus:border-[#f1a3a5]"
-                    />
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div>
-                    <label className="text-[13px] text-[#334155] font-semibold block mb-1">Email</label>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="you@example.com"
-                      className="w-full px-3.5 py-3 rounded-xl border border-[#e2e8f0] bg-white text-sm outline-none focus:shadow-[0_0_0_3px_rgba(146,46,48,0.2)] focus:border-[#f1a3a5]"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-[13px] text-[#334155] font-semibold block mb-1">Preferred Visit</label>
-                    <select
-                      name="visit"
-                      className="w-full px-3.5 py-3 rounded-xl border border-[#e2e8f0] bg-white text-sm outline-none focus:shadow-[0_0_0_3px_rgba(146,46,48,0.2)] focus:border-[#f1a3a5]"
-                    >
-                      <option value="Weekend">Weekend</option>
-                      <option value="Weekday">Weekday</option>
-                      <option value="Virtual">Virtual Walkthrough</option>
-                    </select>
-                  </div>
-                </div>
-                <div>
-                  <label className="text-[13px] text-[#334155] font-semibold block mb-1">Message (optional)</label>
-                  <textarea
-                    name="message"
-                    rows={3}
-                    placeholder="Tell us what you're looking for"
-                    className="w-full px-3.5 py-3 rounded-xl border border-[#e2e8f0] bg-white text-sm outline-none focus:shadow-[0_0_0_3px_rgba(146,46,48,0.2)] focus:border-[#f1a3a5]"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full px-4 py-3.5 rounded-[14px] bg-[#922e30] text-white font-bold hover:bg-[#7d2729] transition-colors disabled:opacity-50"
-                >
-                  {isSubmitting ? "Submitting…" : "Get Price & Brochure"}
-                </button>
-                <div className="text-xs text-[#64748b]">
-                  By submitting, you agree to be contacted by Sarvome. Images are for representation.
-                </div>
-              </form> */}
+              <FormComponent />
             </div>
           </div>
         </div>

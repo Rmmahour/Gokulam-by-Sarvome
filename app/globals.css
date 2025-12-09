@@ -253,18 +253,10 @@ div#c5ed036d-b130-4fb0-8930-7c867f6e7e88-1 {
   font-size: 12px;
   line-height: 21px;
 }
-  h2.text-white {
-    font-weight: 900;
-    font-size: 22px !important;
-}
   header.sticky {
     background: #922e30;
     border-bottom: 1px solid #0000;
     padding: 0;
-}
-p.text-xl.md\:text-2xl.lg\:text-3xl.font-weight-bold.text-white.mt-2 {
-  font-size: 22px;
-  line-height: 33px;
 }
   section.py-14.bg-\[\#922e30\].text-white strong.text-lg {
     font-size: 15px;
@@ -332,31 +324,6 @@ div#hs-form-virality-container {
     height: 450px;
   }
 
-  /* Typography - Mobile */
-  h1 {
-    font-size: 1.75rem !important; /* 28px */
-    line-height: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem !important; /* 24px */
-    line-height: 1.75rem;
-  }
-
-  h3 {
-    font-size: 1.25rem !important; /* 20px */
-    line-height: 1.5rem;
-  }
-
-  h4 {
-    font-size: 1.125rem !important; /* 18px */
-    line-height: 1.5rem;
-  }
-
-  p {
-    font-size: 0.875rem; /* 14px */
-    line-height: 1.5rem;
-  }
 
   /* Container padding */
   .container {
@@ -456,15 +423,6 @@ div#hs-form-virality-container {
   .banner-div {
     height: 400px;
   }
-
-  h1 {
-    font-size: 1.5rem !important; /* 24px */
-  }
-
-  h2 {
-    font-size: 1.25rem !important; /* 20px */
-  }
-
   /* Tighter spacing for very small screens */
   .container {
     padding-left: 0.75rem;
@@ -485,18 +443,6 @@ div#hs-form-virality-container {
     height: 550px;
   }
 
-  /* Typography - Tablet */
-  h1 {
-    font-size: 2rem; /* 32px */
-  }
-
-  h2 {
-    font-size: 1.75rem; /* 28px */
-  }
-
-  h3 {
-    font-size: 1.5rem; /* 24px */
-  }
 
   /* 2-column grids on tablet */
   .grid-cols-3,
@@ -567,19 +513,6 @@ div#hs-form-virality-container {
 
   .grid-cols-4 {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  /* Typography - Desktop */
-  h1 {
-    font-size: 2.5rem; /* 40px */
-  }
-
-  h2 {
-    font-size: 2rem; /* 32px */
-  }
-
-  h3 {
-    font-size: 1.75rem; /* 28px */
   }
 
   /* Hide mobile-only elements */
@@ -667,4 +600,16 @@ div#hs-form-virality-container {
   .show-desktop {
     display: block;
   }
+}
+
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }
