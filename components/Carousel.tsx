@@ -10,10 +10,10 @@ export default function EmblaCarousel() {
       <div className="embla" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-          <img src="/3bhk-builder-floor-faridabad-2/Ele-55.jpg" alt="Floor" className="w-full h-[40vh]" />
+          <img src="/3bhk-builder-floor-faridabad-2/1.webp" alt="Floor" className="object-cover w-full" />
         </div>
         <div className="embla__slide">
-          <img src="/3bhk-builder-floor-faridabad-2/333.jpg" alt="Floor" className="w-full h-[40vh]" />
+          <img src="/3bhk-builder-floor-faridabad-2/2.webp" alt="Floor" className="object-cover w-full" />
         </div>
       </div>
     </div>

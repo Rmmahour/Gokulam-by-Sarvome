@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 export default function ThankYouPage() {
@@ -51,8 +50,7 @@ export default function ThankYouPage() {
 
             {/* Description */}
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-xl mx-auto text-balance">
-              We've received your request and our team is already reviewing your requirements. You'll hear from us
-              within 24 hours.
+              We've received your request and our team is already reviewing your requirements. You'll hear from us within 24 hours.
             </p>
 
             {/* Divider */}
@@ -71,7 +69,7 @@ export default function ThankYouPage() {
 
             {/* Contact Info */}
             <p className="text-sm text-muted-foreground">
-              Need immediate assistance?{" "}
+              Need immediate assistance?{" "} <br/>
               <a href="tel:+919355485555" className="thankyou-check-now font-semibold text-accent hover:underline transition-colors">
                 Call us at +91 9355485555
               </a>

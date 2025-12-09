@@ -29,45 +29,45 @@ export function Gallery() {
             </span> */}
           </div>
           <div
-  className="relative w-full aspect-[16/9] rounded-xl overflow-hidden cursor-pointer"
-  onClick={() => setVideoLoaded(true)}
->
-  {!videoLoaded && (
-    <>
-      <img
-        src="/3bhk-builder-floor-faridabad-2/thumbnail.jpg"
-        alt="Video Thumbnail"
-        className="w-full h-full object-cover"
-      />
-      <div className="absolute inset-0 flex items-center justify-center">
-        <svg
-          className="w-16 h-16"
-          viewBox="0 0 68 48"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            className="fill-[#FF0000]"
-            d="M66.52 7.14c-.78-2.9-3.06-5.18-5.96-5.96C55.86.6 34 0.6 34 0.6s-21.86 0-26.56.58c-2.9.78-5.18 3.06-5.96 5.96C1 12.84 1 24 1 24s0 11.16.48 16.86c.78 2.9 3.06 5.18 5.96 5.96 4.7.58 26.56.58 26.56.58s21.86 0 26.56-.58c2.9-.78 5.18-3.06 5.96-5.96.48-5.7.48-16.86.48-16.86s0-11.16-.48-16.86z"
-          />
-          <path
-            className="fill-white"
-            d="M45 24 27 14v20l18-10z"
-          />
-        </svg>
-      </div>
-    </>
-  )}
-  {videoLoaded && (
-    <iframe
-      width="100%"
-      height="100%"
-      src="https://www.youtube.com/embed/NQTxZjFtztg?autoplay=1"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      className="absolute inset-0 w-full h-full"
-    ></iframe>
-  )}
-</div>
+            className="relative w-full aspect-[16/9] rounded-xl overflow-hidden cursor-pointer"
+            onClick={() => setVideoLoaded(true)}
+          >
+            {!videoLoaded && (
+              <>
+                <img
+                  src="/3bhk-builder-floor-faridabad-2/thumbnail.jpg"
+                  alt="Video Thumbnail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <svg
+                    className="w-16 h-16"
+                    viewBox="0 0 68 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      className="fill-[#FF0000]"
+                      d="M66.52 7.14c-.78-2.9-3.06-5.18-5.96-5.96C55.86.6 34 0.6 34 0.6s-21.86 0-26.56.58c-2.9.78-5.18 3.06-5.96 5.96C1 12.84 1 24 1 24s0 11.16.48 16.86c.78 2.9 3.06 5.18 5.96 5.96 4.7.58 26.56.58 26.56.58s21.86 0 26.56-.58c2.9-.78 5.18-3.06 5.96-5.96.48-5.7.48-16.86.48-16.86s0-11.16-.48-16.86z"
+                    />
+                    <path
+                      className="fill-white"
+                      d="M45 24 27 14v20l18-10z"
+                    />
+                  </svg>
+                </div>
+              </>
+            )}
+            {videoLoaded && (
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/NQTxZjFtztg?autoplay=1"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                className="absolute inset-0 w-full h-full"
+              ></iframe>
+            )}
+          </div>
 
         </div>
         <div>
