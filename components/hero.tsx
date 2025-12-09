@@ -11,8 +11,8 @@ export function Hero() {
 };
 
   const benefits: Benefit[] = [
-    { title: 'READY TO MOVE', imgSrc: '/3bhk-builder-floor-faridabad-2/buy home.webp' },
-    { title: 'SECURED GATED COMMUNITY', imgSrc: '/3bhk-builder-floor-faridabad-2/security guarrd.webp' },
+    { title: 'READY TO MOVE', imgSrc: '/3bhk-builder-floor-faridabad/buy home.webp' },
+    { title: 'SECURED GATED COMMUNITY', imgSrc: '/3bhk-builder-floor-faridabad/security guarrd.webp' },
     { title: 'BASEMENT/ROOF RIGHTS', imgSrc: '' },
     { title: 'SHOPPING COMPLEX WITHIN SOCIETY', imgSrc: '' },
   ]
@@ -21,15 +21,15 @@ export function Hero() {
   return (
 
     <>
-      {/* <section className="relative overflow-hidden bg-cover" style={{ backgroundImage: `url('/3bhk-builder-floor-faridabad-2/hero.png')` }}> */}
-      {/* <img src="3bhk-builder-floor-faridabad-2/Ele-55.jpg" alt="Floor" className="sm:hidden block w-full min-h-[30vh]" /> */}
+      {/* <section className="relative overflow-hidden bg-cover" style={{ backgroundImage: `url('/3bhk-builder-floor-faridabad/hero.png')` }}> */}
+      {/* <img src="3bhk-builder-floor-faridabad/Ele-55.jpg" alt="Floor" className="sm:hidden block w-full min-h-[30vh]" /> */}
       <EmblaCarousel />
 
-      <section className="relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url('/3bhk-builder-floor-faridabad-2/Ele-55.jpg')` }}>
+      <section className="relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url('/3bhk-builder-floor-faridabad/Ele-55.jpg')` }}>
         <div className="relative rounded-none overflow-hidden z-10 md:min-h-[80vh] h-auto flex align-center justify-center">
           {/* <div className="banner-div">
           <img
-            src="/3bhk-builder-floor-faridabad-2/hero.png"
+            src="/3bhk-builder-floor-faridabad/hero.png"
             alt="Gokulam Layout Plan"
             className="w-full h-[600px] max-w-full object-cover block"
           />

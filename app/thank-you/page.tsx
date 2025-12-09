@@ -9,7 +9,7 @@ export default function ThankYouPage() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
               <img
-                src="/3bhk-builder-floor-faridabad-2/gokulam.png"
+                src="/3bhk-builder-floor-faridabad/gokulam.png"
                 alt="Gokulam Layout Plan"
                 className="rounded-2xl border md:w-40 w-25"
                 style={{ borderColor: 'transparent' }}

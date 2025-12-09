@@ -8,15 +8,15 @@ export default function EmblaCarousel() {
   return (
     <div className='sm:hidden block w-full'>
       <div className="embla" ref={emblaRef}>
-      <div className="embla__container">
-        <div className="embla__slide">
-          <img src="/3bhk-builder-floor-faridabad-2/1.webp" alt="Floor" className="object-cover w-full" />
-        </div>
-        <div className="embla__slide">
-          <img src="/3bhk-builder-floor-faridabad-2/2.webp" alt="Floor" className="object-cover w-full" />
+        <div className="embla__container">
+          <div className="embla__slide">
+            <img src="/3bhk-builder-floor-faridabad/1.webp" alt="Floor" className="object-cover w-full" />
+          </div>
+          <div className="embla__slide">
+            <img src="/3bhk-builder-floor-faridabad/2.webp" alt="Floor" className="object-cover w-full" />
+          </div>
         </div>
       </div>
-    </div>
     </div>
   )
 }
